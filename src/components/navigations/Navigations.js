@@ -1,0 +1,1 @@
+//tu musze zamontowac home i scrollei druga lista z logowanie i załoz konto
