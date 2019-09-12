@@ -12,52 +12,48 @@ import HomeHeader from "../home/HomeHeader";
 import HomeAboutUs from "../home/HomeAboutUs";
 import HomeFoundationsList from "../home/HomeFoundationsList";
 import HomeContactForm from "../home/HomeContactForm";
+import '../../scss/styles/Navigations.scss'
 
 
 
 function Navigations () {
-    const selectedStyle ={
-        color: 'magenta',
-        font:'Merriweather',
-        listStyleType:'none',
-        fontSize:'20px',
-        textDecoration:'none'
+    const selectedStyleMenu ={
+        border: "1px solid #FAD648",
 
     }
+    const menuStyle ={
+        color:"#3C3C3C",
+    };
+    const selectedStyleList ={
+        border: "1px solid #3C3C3C",
+
+    };
 
 
-   // <li><Link style={styleMenu} activeStyle={selectedStyleMenu} to='SimpleSteps' spy={true} smooth={true} duration={500}>O co chodzi? </Link></li>
+
+
+
 
         return (<>
-            <ul className='login Menu StyleList'>
-                <li><NavLink to='/login' activeStyle={selectedStyle} className='loginStyle'>Zaloguj</NavLink></li>
-                <li><NavLink to='/register' activeStyle={selectedStyle} className='loginStyle'>Załóż konto</NavLink></li>
+            <nav className='mainNav'>
+            <ul className='loginMenuStyleList'>
+                <li><NavLink to='/login' activeStyle={selectedStyleMenu} className='loginStyle' style={menuStyle}>Zaloguj</NavLink></li>
+                <li><NavLink to='/register' activeStyle={selectedStyleMenu} className='loginStyle'style={menuStyle}>Załóż konto</NavLink></li>
             </ul>
             <ul className='menuStyleList'>
-                <li><NavLink to ='/' activeStyle={selectedStyle} className='menuStyle'>Start</NavLink></li>
-                <li><Link activeClass ='active' className ='header' to ='HomeHeader' spy ={true} spy ={true} smooth ={true} duration ={500}> O co chodzi</Link></li>
+                <li><NavLink to ='/' activeStyle={selectedStyleList} style={menuStyle} className='menuStyle'>Start</NavLink></li>
+                <li><Link  to ='HomeWhatAbout' spy ={true} spy ={true} smooth ={true} duration ={500}> O co chodzi</Link></li>
                 <li><Link activeClass ='active' className ='aboutUs' to ='HomeAboutUs' spy ={true} spy ={true} smooth ={true} duration ={500}>O nas</Link></li>
                 <li><Link activeClass ='active' className ='foundationList' to ='HomeFoundationsList' spy ={true} spy ={true} smooth ={true} duration ={500}>Fundacja i organizacje</Link></li>
                 <li><Link activeClass ='active' className ='contact' to ='HomeContactForm' spy ={true} spy ={true} smooth ={true} duration ={500}>Kontakt</Link></li>
             </ul>
 
-            <Element name ='HomeHeader' className ='element'>
-                <HomeHeader/>
-            </Element>
-            <Element name = 'HomeAboutUs' className = 'element'>
-                <HomeAboutUs/>
-            </Element>
-            <Element name ='HomeFoundationsList' className = 'element'>
-                <HomeFoundationsList/>
-            </Element>
-            <Element name = 'HomeContactForm' className = 'element'>
-                <HomeContactForm/>
-            </Element>
 
 
 
 
 
+</nav>
         </>)
 
 }

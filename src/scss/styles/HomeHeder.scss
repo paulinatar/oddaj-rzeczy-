@@ -1,0 +1,50 @@
+.main {
+  width: 100%;
+  height: 700px;
+  margin-bottom: 20px;
+  display: flex;
+  .leftImage {
+  background-image: url("../../assets/Home-Hero-Image.jpg");
+  background-size: 150%;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 50%;
+}
+  .rightMenu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin-right: 10%;
+    .startHelp {
+    margin-top: 50px;        p {
+      font-size: 25px;
+    }
+  }      .buttons {
+           display: flex;
+justify-content: center;
+           align-items: center;
+           text-align: center;
+           margin-top: 20px;
+               button {
+      border: 1px solid grey;
+      height: 90px;
+      width: 220px;
+      background-color: white;
+      font-size: 25px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 200;
+      text-transform: uppercase;
+      justify-content: space-between;
+      margin: 15px;
+      align-items: center;
+                 a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: grey;
+      }
+    }
+         }
+  }
+}

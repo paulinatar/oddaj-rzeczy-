@@ -1,10 +1,18 @@
 import React,{Component} from "react";
 import {NavLink} from "react-router-dom";
+import '../../scss/styles/Logout.scss'
+import Navigations from "../navigations/Navigations";
 
 
 class Logout extends Component{
     render() {
-        return <h3>Wylogowałem sie</h3>
+        return(
+            <div>
+                <Navigations/>
+                <h3>Wylogowałem sie</h3>
+            </div>
+
+        )
     }
 }
 

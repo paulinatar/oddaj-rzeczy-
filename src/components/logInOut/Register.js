@@ -1,10 +1,17 @@
 import React,{Component} from "react";
 import {NavLink} from "react-router-dom";
+import '../../scss/styles/Register.scss'
+import Navigations from "../navigations/Navigations";
 
 
 class Register extends Component{
     render() {
-        return <h2>chce sie zarejestrowac</h2>
+        return (
+            <div>
+                <Navigations/>
+                <h2>chce sie zarejestrowac</h2>
+            </div>
+            )
     }
 }
 

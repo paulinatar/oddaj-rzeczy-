@@ -1,0 +1,31 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  .loginMenuStyleList {
+    list-style-type: none;
+    display: flex;
+    margin: 2rem 0;
+    justify-content: flex-end;
+    li {
+      margin-left: 2rem;
+    }
+  }
+  .menuStyleList {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2rem;
+    text-decoration: none;
+
+    li {
+      margin-left: 2rem;
+    }
+  }
+  a{
+    text-decoration: none;
+  }
+}
+.mainNav{
+  width: 100%;
+}

@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <HashRouter>
-        <Navigations/>
+
         <Switch>
            <Route exact path ='/' component = {Home}/>
            <Route path = '/login' component = {Login}/>
