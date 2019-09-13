@@ -5,8 +5,12 @@ import '../../scss/styles/HomeWhatAbout.scss'
 
 class HomeWhatAbout extends Component{
     render() {
+        const style_button= {
+            border: '1px solid #FAD648'
+        };
         return( <div className='container' name ='HomeWhatAbout'>
-            <h3> Wystarczą 4 proste kroki</h3>
+           <br/>
+            <h2> Wystarczą 4 proste kroki</h2>
             <div className='decoration'></div>
             <div className='fourSteps'>
                 <div className='numberStep'>
@@ -39,7 +43,7 @@ class HomeWhatAbout extends Component{
                 </div>
 
             </div>
-            <button><NavLink to ='/login'>ODDAJ RZECZY</NavLink></button>
+            <button><NavLink activeStyle={style_button} to ='/login'>ODDAJ RZECZY</NavLink></button>
 
 
         </div>)

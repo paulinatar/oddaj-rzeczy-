@@ -1,0 +1,34 @@
+@import "../settings/colors";
+
+
+.container4{
+  width: 100%;
+  height: 520px;
+  display: flex;
+  .leftFormImage{
+    width: 50%;
+    border: 1px solid red;
+  background-image: url("../../assets/Background-Contact-Form.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: .3;}
+  .rightForm{
+    border: 1px solid red;
+    width: 50%;
+    display: inline-block;
+    padding-top: 40px;
+    .decorations{
+      height: 30px;
+      background-image: url("../../assets/Decoration.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 25px;
+      color: $silver;
+    }
+
+  }
+
+
+
+}

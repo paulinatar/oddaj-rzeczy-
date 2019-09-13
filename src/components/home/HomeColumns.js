@@ -9,18 +9,21 @@ class HomeColumns extends Component{
         return( <div className='yellowContainer'>
             <div className='column'>
                 <div>5</div>
-                <h4>ODDANNYCH WORKÓW</h4>
-                <p>lorem ipsum</p>
+                <h5>ODDANNYCH WORKÓW</h5>
+                <br/>
+                <p>Lorem ipsum dolor sit amet consectetur adpisc Pellentesque vel enim a elit viverra elementuma. Aliquam erat voluptat</p>
             </div>
             <div className='column'>
                 <div>8</div>
-                <h4>WSPARTYCH ORGANIZACJI</h4>
-                <p>lorem ipsum</p>
+                <h5>WSPARTYCH ORGANIZACJI</h5>
+                <br/>
+                <p>Lorem ipsum dolor sit amet consectetur adpisc Pellentesque vel enim a elit viverra elementuma. Aliquam erat voluptat</p>
             </div>
             <div className='column'>
                 <div>9</div>
-                <h4>ZORGANIZOWANYCH ZBIOREK</h4>
-                <p>lorem ipsum</p>
+                <h5>ZORGANIZOWANYCH ZBIOREK</h5>
+                <br/>
+                <p>Lorem ipsum dolor sit amet consectetur adpisc Pellentesque vel enim a elit viverra elementuma. Aliquam erat voluptat</p>
             </div>
 
 

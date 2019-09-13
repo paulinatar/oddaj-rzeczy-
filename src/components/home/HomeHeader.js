@@ -18,7 +18,7 @@ class HomeHeader extends Component{
             <div className='rightMenu'>
                 <Navigations/>
                 <div className='startHelp'>
-                    <h2>Zacznij pomagac !</h2>
+                    <h2>Zacznij pomagać !</h2>
                     <h2>Oddaj niechciane rzeczy w zaufane ręce</h2>
                     <img src={decoration} style={{width: '200px'}}/>
                     <div className='buttons'>

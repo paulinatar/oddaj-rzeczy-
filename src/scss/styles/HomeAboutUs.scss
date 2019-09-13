@@ -1,0 +1,41 @@
+@import "../settings/colors";
+
+.container3{
+  width: 100%;
+  height: 520px;
+  display: flex;
+  .leftWhatAbout{
+
+    width: 50%;
+    padding: 70px 10px;
+    background-color: $white;
+    p{
+      text-align: center;
+     padding: 15px 60px;
+    }
+      .decorations {
+        height: 30px;
+        background-image: url("../../assets/Decoration.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 25px;
+        color: $silver;
+      }
+    .sight{
+      height: 90px;
+      background-image: url("../../assets/Signature.svg");
+      background-position: right;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-right: 80px;
+
+    }
+    }
+  .rightImage{
+    width: 50%;
+    background-image: url("../../assets/People.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  }

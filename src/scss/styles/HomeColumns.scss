@@ -5,9 +5,15 @@
   justify-content: center;
   background-color:#FAD648 ;
 .column{
-  width: 25%;
+  width: 30%;
   justify-content: center;
-  border: 1px solid red;
+  padding: 35px;
+  color: #3C3C3C;
+  div{
+    font-size: 45px;
+    color: #3C3C3C;
+    padding: 10px;
+  }
 }
 
 
