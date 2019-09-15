@@ -18,7 +18,7 @@ render() {
     return(
 
 
-            <div className='foundationsList'>
+            <div className='foundationsList' name ="HomeFoundationsList">
                 <h2>Komu pomagamy ?</h2>
                 <div className='decoration'></div>
                 <div className='buttons'>
