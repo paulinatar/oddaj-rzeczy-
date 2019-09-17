@@ -1,0 +1,60 @@
+@import "../settings/colors";
+@import "../settings/fonts";
+
+
+
+.infoAbout{
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 14px;
+  color: $silver;
+  padding-top: 20px;
+}
+
+.organizationList{
+  padding: 20px 10px ;
+  text-align:left ;
+  display: inline-block;
+  color: $silver;
+  font-weight: 100;
+  font-family: $font-alt;
+
+
+
+    li {
+      list-style-type: none;
+      border-bottom: 1px solid $silver;
+      margin-top: 15px;
+      width: 800px;
+
+      h3 {
+        font-weight: 100;
+
+
+      }
+      h6 {
+        font-size: 0.8rem;
+        font-weight: 100;
+      }
+    }
+    h5 {
+     text-align: right;
+      font-weight: 100;
+      font-size: 12px;
+    }
+  }
+.numbers {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  cursor: pointer;
+
+
+.paginationButton{
+  width: 20px;
+  height: 20px;
+cursor: pointer;
+  margin-right: 15px;
+
+}}
