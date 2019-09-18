@@ -1,0 +1,24 @@
+@import "../../scss/settings/colors";
+@import "../../scss/settings/fonts";
+
+.logoutDiv{
+  margin-top: 30px;
+  padding: 0 400px;
+
+
+}
+
+button{
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  border: none;
+  margin: 30px 80px;
+  text-transform: none;
+  color: $darksilver;
+  font-family: $font-base;
+  font-weight: lighter;
+
+
+
+}

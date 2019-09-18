@@ -1,13 +1,14 @@
 import React,{Component} from "react";
 import {NavLink} from "react-router-dom";
 import '../../scss/styles/HomeContactForm.scss'
+import Footer from "./Footer2";
 
 
 
 
 class HomeContactForm extends Component{
     render() {
-        return(<>
+        return(<section>
             <div className='container4' name ='HomeContactForm'>
 
             </div>
@@ -40,17 +41,11 @@ class HomeContactForm extends Component{
                     </div>
 
                 </div>
-            <div className='footer'>
-                <p>Copyright by Coders Lab</p>
-                <div className='socialMedia'>
-                    <div className='insta'></div>
-                    <div className='fb'></div>
-                </div>
-            </div>
 
 
+<Footer/>
 
-        </>)
+        </section>)
 
 
 

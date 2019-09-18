@@ -1,0 +1,52 @@
+@import "../../scss/settings/colors";
+
+
+.contactFooter {
+  height: 30px;
+  width: 100%;
+  color: $silver;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+
+
+
+  .copyrightText{
+
+    margin-left: 600px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+
+
+  }
+  .logo{
+    display: flex;
+    //padding: 0 50px;
+    float: right;
+    border: 1px solid red;
+    margin-left: 60px;
+    justify-content: space-between;
+
+
+
+
+    .facebook{
+
+      background: url("../../assets/Facebook.svg") no-repeat;
+      width: 20px;
+      height: 20px;
+      background-size: contain;
+
+    }
+    .instagram {
+      background: url("../../assets/Instagram.svg") no-repeat;
+      width: 20px;
+      height: 20px;
+      background-size: contain;
+      margin-left: 10px;
+    }
+  }
+}

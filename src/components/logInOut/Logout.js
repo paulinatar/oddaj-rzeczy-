@@ -7,9 +7,15 @@ import Navigations from "../navigations/Navigations";
 class Logout extends Component{
     render() {
         return(
-            <div>
+            <div className='container5'>
                 <Navigations/>
-                <h3>Wylogowałem sie</h3>
+                <div className='logoutDiv'>
+                   <h2>Wylogowanie nastapiło pomyślnie !</h2>
+                    <div className='decoration'></div>
+                    <button className='loginStyle'>Strona główna</button>
+
+                </div>
+
             </div>
 
         )

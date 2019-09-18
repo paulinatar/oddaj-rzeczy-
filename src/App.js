@@ -6,6 +6,7 @@ import Navigations from './components/navigations/Navigations'
 import Home from './components/home/Home'
 import Login from "./components/logInOut/Login";
 import Register from "./components/logInOut/Register";
+import Logout from "./components/logInOut/Logout";
 
 //tu wrzucam hass router, navigations i swich a routem do homa
 
@@ -18,6 +19,7 @@ function App() {
            <Route exact path ='/' component = {Home}/>
            <Route path = '/login' component = {Login}/>
            <Route path = '/register' component = {Register}/>
+           <Route path = '/logout' component ={Logout}/>
         </Switch>
 
 

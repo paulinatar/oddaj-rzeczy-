@@ -39,6 +39,8 @@ function Navigations () {
             <ul className='loginMenuStyleList'>
                 <li><NavLink to='/login' activeStyle={selectedStyleMenu} className='loginStyle' style={menuStyle}>Zaloguj</NavLink></li>
                 <li><NavLink to='/register' activeStyle={selectedStyleMenu} className='loginStyle'style={menuStyle}>Załóż konto</NavLink></li>
+
+                <li><NavLink to='/logout' activeStyle={selectedStyleMenu} className='loginStyle'style={menuStyle}>Wyloguj sie</NavLink></li>
             </ul>
             <ul className='menuStyleList'>
                 <li><NavLink to ='/' activeStyle={selectedStyleList} style={menuStyle} className='menuStyle'>Start</NavLink></li>

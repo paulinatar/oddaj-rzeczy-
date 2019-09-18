@@ -1,0 +1,65 @@
+@import "../../scss/settings/colors";
+@import "../../scss/settings/fonts";
+
+
+.container5{
+  padding-left: 10%;
+  padding-right: 10%;
+
+.registerDiv{
+  font-family: $font-base;
+  margin: 0 auto;
+  button{
+    width: 90px;
+    height: 30px;
+    font-size: 14px;
+    border: none;
+    margin: 30px 80px;
+    text-transform: none;
+    color: $silver;
+
+  }
+
+
+  .registerFormlog {
+    width: 200px;
+    height: 120px;
+
+    background-color: $white;
+    padding: 40px 40px;
+    margin: 0 auto;
+
+input{
+
+
+  display: block;
+  margin: 0 auto;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid $darksilver;
+ box-shadow: none;
+  border-top: none;
+  border-left: none;
+  height: 25px;
+
+
+
+
+}
+    label{
+
+      display: block;
+      font-family: $font-base;
+      font-size: 12px;
+      margin: 0 auto;
+      text-align: left;
+      padding-left: 15px;
+      color: $darksilver;
+      font-weight: bold;
+    }
+
+
+
+  }
+
+}}
