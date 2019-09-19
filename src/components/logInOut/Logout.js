@@ -12,7 +12,7 @@ class Logout extends Component{
                 <div className='logoutDiv'>
                    <h2>Wylogowanie nastapiło pomyślnie !</h2>
                     <div className='decoration'></div>
-                    <button className='loginStyle'>Strona główna</button>
+                    <button><NavLink to='/'>Strona główna</NavLink></button>
 
                 </div>
 
