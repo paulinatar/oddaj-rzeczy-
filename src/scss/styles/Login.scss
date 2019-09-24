@@ -9,14 +9,23 @@
   .registerDiv{
     font-family: $font-base;
     margin: 0 auto;
+    .loginStyle{
+    border: 1px solid $silver;
+      cursor: pointer;
+      h2{
+        font-weight: lighter;
+        color: $darksilver;
+      }
+  }
     button{
       width: 90px;
       height: 30px;
-      font-size: 14px;
+      font-size: 12px;
       border: none;
       margin: 30px 80px;
       text-transform: none;
       color: $silver;
+
 
     }
     span{

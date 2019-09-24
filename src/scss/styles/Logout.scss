@@ -6,18 +6,25 @@
   padding: 0 400px;
 
 
-}
 
+}
+h2{
+  font-weight: lighter;
+  color: $darksilver;
+}
 button{
   width: 100px;
   height: 30px;
-  font-size: 14px;
-  border: none;
+  font-size: 12px;
+  border: 1px solid $silver;
   margin: 30px 80px;
   text-transform: none;
   color: $darksilver;
   font-family: $font-base;
   font-weight: lighter;
+  a{
+    text-transform: none;
+  }
 
 
 

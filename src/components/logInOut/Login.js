@@ -60,12 +60,13 @@ class Login extends Component{
                             <br/>
                             <label>Hasło</label>
 
-                            <input type='text' name='password' value={this.state.password} onChange={this.handleLoginChange} className='inputName'/>
+                            <input type='password' name='password' value={this.state.password} onChange={this.handleLoginChange} className='inputName'/>
                             {this.state.errLoginPassword && <span style={{color:'red'}}>Podane hasło jest za krótkie</span>}
 
                     </div>
+                        <button type='submit'> Załóż konto</button>
                     <button className='loginStyle' type='submit' value='send'>Zaloguj się</button>
-                    <button type='submit'> Załóż konto</button>
+
                 </form>
 
 

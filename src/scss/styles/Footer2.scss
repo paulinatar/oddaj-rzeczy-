@@ -4,30 +4,24 @@
 .contactFooter {
   height: 30px;
   width: 100%;
-  color: $silver;
+  color: black;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-
-
+ ;
 
 
 
   .copyrightText{
-
-    margin-left: 600px;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 600px;
 
 
   }
   .logo{
     display: flex;
-    //padding: 0 50px;
-    float: right;
-    border: 1px solid red;
-    margin-left: 60px;
+    padding-left: 100px;
     justify-content: space-between;
 
 

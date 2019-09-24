@@ -43,16 +43,39 @@ class HomeContactForm extends Component{
                 this.setState({errMessage:true})
             }
         }
+
+        const urlCL= "https://fer-api.coderslab.pl/v1/portfolio/contact";
+
+        fetch(urlCL, {
+            method: 'POST',
+            headers:{
+                'Content-Type':'application/json'
+            },
+            body:JSON.stringify({
+                name, email, message
+            })
+
+        }).then(function (data) {
+            console.log(data)
+        })
+            .catch(function (error) {
+                console.log(error)
+            })
+
     };
     handleChange =e=>{
         this.setState({
         [e.target.name]:e.target.value
         })
 
-    }
+    };
+
     render() {
-        return(<section>
+        return(
+            <>
+            <section>
             <div className='container4' name ='HomeContactForm'>
+
 
             </div>
                 <div className='rightForm'>
@@ -80,7 +103,7 @@ class HomeContactForm extends Component{
 
                         <label>Wpisz swoją wiadomośc</label>
                             <br/>
-                        <textarea cols ='60' rows='4' name='message' value={this.state.message} onChange={this.handleChange}  placeholder='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat'/>
+                        <textarea cols ='65' rows='4' name='message' value={this.state.message} onChange={this.handleChange}  placeholder='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat'/>
                           <br/>  {this.state.errMessage &&<span style={{color:'red'} }>Pole wiadomość musi mieć minimum 120 znaków</span>}
 
                         </div>
@@ -96,9 +119,11 @@ class HomeContactForm extends Component{
                 </div>
 
 
-<Footer/>
 
-        </section>)
+
+        </section>
+                <Footer/>
+                </>)
 
 
 

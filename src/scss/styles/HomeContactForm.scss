@@ -12,6 +12,8 @@ section {
     background-repeat: no-repeat;
     opacity: .3;
     position: relative;
+    display: flex;
+    align-items: flex-end;
   }
 
 
@@ -38,7 +40,6 @@ section {
 
     .formDiv {
       display: block;
-
       padding: 35px;
       font-family: $font-base;
       font-size: 12px;
@@ -47,6 +48,8 @@ section {
 
       button {
         margin-top: 45px;
+        margin-left: 0;
+        margin-right: 0;
         float: right;
         width: 120px;
         height: 40px;
@@ -54,7 +57,9 @@ section {
         padding: 2px 10px;
         font-weight: bold;
         color: $silver;
-        background-color: transparent;;
+        background-color: transparent;
+        cursor: pointer;
+        border: 1px solid $silver;
       }
 
       input {

@@ -78,8 +78,8 @@ class Register extends Component{
                         {this.state.errPassword1 &&<span style={{color:'red'} }>Podane hasło nie jest identyczne z pierwszym</span>}
                            
                     </div>
-                        <button className='loginStyle' type='submit'>Zaloguj się</button>
-                        <button type='submit' value='send'> Załóż konto</button>
+                        <button  type='submit'>Zaloguj się</button>
+                        <button  className='loginStyle' type='submit' value='send'> Załóż konto</button>
             </form>
 
 

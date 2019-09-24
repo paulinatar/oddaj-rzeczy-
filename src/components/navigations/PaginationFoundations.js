@@ -9,17 +9,17 @@ class PaginationFoudations extends Component{
         super();
 this.state ={
     foundations:[{
-        title: "Fundacja 1",
+        title: '"Fundacja 1"',
         mission: "Quis varius quam quisque id diam vel quam elementum pulvinar",
         subjects: "Egestas, sed, tempus"
     },
         {
-            title: "Fundacja 2",
+            title: '"Fundacja 2"',
             mission: "Hendrerit gravida rutrum quisque non tellus orci ac auctor augue",
             subjects: "ubrania, aliquam, purus, sit, amet"
         },
         {
-            title: "Fundacja 3",
+            title: '"Fundacja 3"',
             mission: "Scelerisque in dictum non consectetur a erat nam",
             subjects: "Mi, quis, hendretit, dolor"
         },
@@ -29,27 +29,27 @@ this.state ={
             subjects: "Egestas, sed, tempus"
         },
         {
-            title: "Fundacja 5",
+            title: '"Fundacja 5"',
             mission: "Hendrerit gravida rutrum quisque non tellus orci ac auctor augue",
             subjects: "Ut, aliquam, purus, sit, amet"
         },
         {
-            title: "Fundacja6",
+            title: '"Fundacja6"',
             mission: "Scelerisque in dictum non consectetur a erat nam",
             subjects: "Mi, quis, hendretit, dolor"
         },
         {
-            title: "Fundacja 7",
+            title: '"Fundacja 7"',
             mission: "Quis varius quam quisque id diam vel quam elementum pulvinar",
             subjects: "Egestas, sed, tempus"
         },
         {
-            title: "Fundacja 8",
+            title: '"Fundacja 8"',
             mission: "Hendrerit gravida rutrum quisque non tellus orci ac auctor augue",
             subjects: "Ut, aliquam, purus, sit, amet"
         },
         {
-            title: "Fundacja 9",
+            title: '"Fundacja 9"',
             mission: "Scelerisque in dictum non consectetur a erat nam",
             subjects: "Mi, quis, hendretit, dolor"
         },
