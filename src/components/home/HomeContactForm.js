@@ -2,6 +2,7 @@ import React,{Component} from "react";
 import {NavLink} from "react-router-dom";
 import '../../scss/styles/HomeContactForm.scss'
 import Footer from "./Footer2";
+import Firebase from '../Firebase/Firebase'
 
 
 
@@ -73,11 +74,8 @@ class HomeContactForm extends Component{
     render() {
         return(
             <>
-            <section>
-            <div className='container4' name ='HomeContactForm'>
+            <section className='formSection' name ='HomeContactForm'>
 
-
-            </div>
                 <div className='rightForm'>
                     <h2>Skontaktuj się z nami</h2>
                     <div className='decorations'></div>
@@ -103,7 +101,7 @@ class HomeContactForm extends Component{
 
                         <label>Wpisz swoją wiadomośc</label>
                             <br/>
-                        <textarea cols ='65' rows='4' name='message' value={this.state.message} onChange={this.handleChange}  placeholder='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat'/>
+                        <textarea cols ='55' rows='4' name='message' value={this.state.message} onChange={this.handleChange}  placeholder='Lorem ipsum dolor sit amet, consectetur t dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat'/>
                           <br/>  {this.state.errMessage &&<span style={{color:'red'} }>Pole wiadomość musi mieć minimum 120 znaków</span>}
 
                         </div>
@@ -120,9 +118,9 @@ class HomeContactForm extends Component{
 
 
 
-
-        </section>
                 <Footer/>
+        </section>
+
                 </>)
 
 

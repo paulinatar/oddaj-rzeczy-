@@ -4,25 +4,28 @@
 .contactFooter {
   height: 30px;
   width: 100%;
-  color: black;
-  display: flex;
+  color: $silver;
+  display: flex;;
   justify-content: space-between;
  ;
+  padding-top: 760px;
+
 
 
 
   .copyrightText{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin-left: 600px;
+    //display: flex;
+    //justify-content: space-between;
+   // align-items: flex-end;
+    margin-left: 650px;
+    font-size: 12px;
+    margin-bottom: 10px;
 
 
   }
   .logo{
     display: flex;
-    padding-left: 100px;
-    justify-content: space-between;
+    margin-right: 45px;
 
 
 

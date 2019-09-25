@@ -1,19 +1,36 @@
 import React,{Component} from "react";
-import {NavLink} from "react-router-dom";
+import {NavLink, Link, withRouter} from "react-router-dom";
+import {compose} from 'recompose'
+import {withFirebase} from "../Firebase";
+import * as ROUTES from '../../constants/routes'
 import '../../scss/styles/Register.scss'
 import Navigations from "../navigations/Navigations";
 
 
-class Register extends Component{
-    state={
-        email:'',
-        password:'',
-        password1:'',
-        errEmail: false,
-        errPassword: false,
-        errPassword1:false,
-        sendRegistration:false
+
+
+const Register =()=>(
+    <>
+        <RegisterBase/>
+
+    </>
+)
+
+const InitialState ={
+    email:'',
+    password:'',
+    password1:'',
+    errEmail: false,
+    errPassword: false,
+    errPassword1:false,
+    sendRegistration:false
+}
+class RegisterForm extends Component{
+    constructor(props){
+        super(props);
+        this.state={...InitialState}
     }
+
     handleRegisterSubmit =e=>{
         this.setState({sendRegistration:false});
         this.setState({errEmail:false});
@@ -24,7 +41,7 @@ class Register extends Component{
         let email=this.state.email;
         let password = this.state.password;
         let password1 = this.state.password1;
-        e.preventDefault();
+
         
         if (mailReg.test(email)  && password1===password && password1.length>6) {
             this.setState({sendRegistration:true})
@@ -43,8 +60,16 @@ class Register extends Component{
             }
         }
         
-        
-        
+       this.props.firebase
+           .doCreateUserWithEmailAndPassword(email, password)
+           .then(authUser =>{
+               this.setState({...InitialState});
+               this.props.history.push(ROUTES.ACCOUNT);
+           })
+           .catch(error=>{
+               this.setState({error})
+           })
+        e.preventDefault()
     }
     handleRegisterChange =e=>{
         this.setState({
@@ -52,6 +77,7 @@ class Register extends Component{
         })
     };
     render() {
+
         return (
             <div className='container5'>
                 <Navigations/>
@@ -94,4 +120,9 @@ class Register extends Component{
     }
 }
 
+const RegisterBase = compose(
+    withRouter,
+    withFirebase,
+)(RegisterForm);
+export {RegisterBase}
 export default Register
