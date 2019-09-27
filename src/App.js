@@ -11,6 +11,9 @@ import AccountGiveThings from "./components/account/AccountGiveThings";
 
 import * as ROUTES from '../src/constants/routes'
 
+import LoginFirebase from "./components/logInOut/LoginFirebase";
+import Registration from "./components/logInOut/RegisterFirebase";
+
 
 function App() {
   return (
@@ -19,8 +22,8 @@ function App() {
 
         <Switch>
            <Route exact path ={ROUTES.HOME} component = {Home}/>
-           <Route path = {ROUTES.LOGIN} component = {Login}/>
-           <Route path = {ROUTES.REGISTER} component = {Register}/>
+           <Route path = {ROUTES.LOGIN} component = {LoginFirebase}/>
+           <Route path = {ROUTES.REGISTER} component = {Registration}/>
            <Route path = {ROUTES.LOGOUT} component ={Logout}/>
            <Route path ={ROUTES.ACCOUNT} component ={AccountGiveThings}/>
         </Switch>

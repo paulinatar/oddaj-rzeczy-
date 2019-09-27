@@ -1,9 +1,15 @@
 import React,{Component} from 'react';
+import Navigations from "../navigations/Navigations";
 
 
 class AccountGiveThings extends Component {
     render() {
-        return <h1>Oddaj rzeczy</h1>
+        return <div>
+            <Navigations/>
+
+            <h1>Oddaj rzeczy</h1>
+
+        </div>
     }
 }
 

@@ -30,10 +30,6 @@ function Navigations () {
     };
 
 
-
-
-
-
         return (<>
             <nav className='mainNav'>
             <ul className='loginMenuStyleList'>

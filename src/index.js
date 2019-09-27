@@ -3,8 +3,16 @@ import ReactDOM from 'react-dom';
 import '../src/scss/main.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Firebase, {FirebaseContext} from './components/Firebase/index';
 
+
+import FirebaseContext, {withFirebase} from './components/Firebase/context'
+
+import Firebase from './components/Firebase/Firebase'
+
+
+
+export default Firebase;
+export {FirebaseContext, withFirebase}
 
 
 
