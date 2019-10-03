@@ -1,0 +1,24 @@
+.bearDiv {
+width: 100%;
+  height: 500px ;
+  background-image: url("../../assets/Background-Form.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .stepDiv {
+    width: 50%;
+    height: 450px;
+    border: 1px solid red;
+    float: left;
+    display: block;
+  }
+  .stepTwo{
+display: none;
+  }
+  .stepThree{
+    display: none;
+  }
+  .stepFour{
+    display: none;
+  }
+}

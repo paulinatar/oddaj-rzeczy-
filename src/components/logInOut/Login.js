@@ -52,7 +52,7 @@ class Login extends Component {
                     console.log(authUser)
                     sessionStorage.setItem("email",`${this.state.email}`)
                     this.setState({email: "", password: "",});
-                    this.props.history.push(ROUTES.ACCOUNT);
+                    this.props.history.push(ROUTES.AFTERLOGIN);
 
                 })
                 .catch(error => {

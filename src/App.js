@@ -2,17 +2,18 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {HashRouter, Switch, Route} from "react-router-dom";
-import Navigations from './components/navigations/Navigations'
+
 import Home from './components/home/Home'
-import Login from "./components/logInOut/Login";
-import Register from "./components/logInOut/Register";
+
 import Logout from "./components/logInOut/Logout";
-import AccountGiveThings from "./components/account/AccountGiveThings";
+
 
 import * as ROUTES from '../src/constants/routes'
 
 import LoginFirebase from "./components/logInOut/LoginFirebase";
 import Registration from "./components/logInOut/RegisterFirebase";
+import GiveThingsHeader from "./components/account/GiveThingsHeader";
+import HomeAfterLogin from "./components/account/HomeAfterLogin";
 
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
            <Route path = {ROUTES.LOGIN} component = {LoginFirebase}/>
            <Route path = {ROUTES.REGISTER} component = {Registration}/>
            <Route path = {ROUTES.LOGOUT} component ={Logout}/>
-           <Route path ={ROUTES.ACCOUNT} component ={AccountGiveThings}/>
+           <Route path ={ROUTES.ACCOUNT} component ={GiveThingsHeader}/>
+           <Route path = {ROUTES.AFTERLOGIN} component = {HomeAfterLogin}/>
         </Switch>
 
 

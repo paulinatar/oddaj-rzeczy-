@@ -82,20 +82,20 @@ class RegistrationFirebase extends Component {
                         <h2>Załóż konto</h2>
                         <div className='decoration'></div>
                         <form onSubmit={this.handleOnSubmit}>
-                            <div className='registerForm'>
+                            <div className='registerFormlog'>
                                 <label>Email </label>
                                     <input type="email" name="email" value={this.state.email}
                                            onChange={this.handleOnChange}/>
                                     {this.state.errEmail &&
                                     <span className="errorMessage" style={{color: 'red'}}>Podany email jest nieprawidłowy!</span>}
 
-
+<br/>
                                 <label>Hasło</label>
                                     <input type="password" name="password" value={this.state.password}
                                            onChange={this.handleOnChange}/>
                                     {this.state.errPsw && <span className="errorMessage" style={{color: 'red'}}>Podane hasło jest za krótkie!</span>}
 
-
+<br/>
                                 <label>Powtórz hasło</label>
                                     <input type="password" name="confirmPassword" value={this.state.confirmPassword}
                                            onChange={this.handleOnChange}/>
