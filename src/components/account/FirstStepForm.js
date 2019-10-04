@@ -5,6 +5,9 @@ import '../../scss/styles/FirstStepForm.scss'
 
 
 class FirstStepForm extends Component{
+    state={
+
+    }
     render() {
         return (<><div className='green'>
             <div className='yellowDiv'>
@@ -18,15 +21,15 @@ class FirstStepForm extends Component{
                         <h5>Krok 1/4</h5>
 
                         <h3>Zaznacz co chcesz oddać:</h3>
-                        <input type='radio'/><label>ubrania, które nadają sie do ponownego uzycia</label>
+                        <input type='checkbox'/><label>ubrania, które nadają sie do ponownego użycia</label>
                             <br/>
-                        <input  type='radio'/><label>ubrania, do wyrzucenia</label>
+                        <input  type='checkbox'/><label>ubrania, do wyrzucenia</label>
                             <br/>
-                        <input type='radio' /><label>zabawki</label>
+                        <input type='checkbox' /><label>zabawki</label>
                             <br/>
-                        <input  type='radio'/><label>ksiązki</label>
+                        <input  type='checkbox'/><label>książki</label>
                             <br/>
-                        <input  type='radio'/><label>inne</label>
+                        <input  type='checkbox'/><label>Inne</label>
                             <br/>
                         <button>Dalej</button>
                         </div>
@@ -42,6 +45,7 @@ class FirstStepForm extends Component{
                                 <option>4</option>
                                 <option>5</option>
                             </select>
+                            <br/>
 <button>WSTECZ</button>
                             <button>DALEJ</button>
 
