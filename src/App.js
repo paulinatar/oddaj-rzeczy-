@@ -14,6 +14,7 @@ import LoginFirebase from "./components/logInOut/LoginFirebase";
 import Registration from "./components/logInOut/RegisterFirebase";
 import GiveThingsHeader from "./components/account/GiveThingsHeader";
 import HomeAfterLogin from "./components/account/HomeAfterLogin";
+import AccountForm from "./components/account/AccountForm";
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
            <Route path = {ROUTES.LOGIN} component = {LoginFirebase}/>
            <Route path = {ROUTES.REGISTER} component = {Registration}/>
            <Route path = {ROUTES.LOGOUT} component ={Logout}/>
-           <Route path ={ROUTES.ACCOUNT} component ={GiveThingsHeader}/>
+           <Route path ={ROUTES.ACCOUNT} component ={AccountForm}/>
            <Route path = {ROUTES.AFTERLOGIN} component = {HomeAfterLogin}/>
         </Switch>
 

@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e7dc87e-8746-4d21-849e-6f27a14c3fd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/account/FirstStepForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/account/GiveThingsHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/account/HomeAfterLogin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/styles/FirstStepForm.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/styles/GiveThingsHeader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/account/AccountForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/account/AccountGiveThings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logInOut/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logInOut/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logInOut/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logInOut/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigations/NavigationUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigations/NavigationUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigations/Navigations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigations/Navigations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/settings/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/settings/_reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/styles/Login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles/Login.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/account/FirstStepForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/account/FirstStepForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/account/GiveThingsHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/account/GiveThingsHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/styles/FirstStepForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles/FirstStepForm.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/styles/GiveThingsHeader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles/GiveThingsHeader.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,19 +23,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/account/HomeAfterLogin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="38" lean-forward="true" selection-end-line="1" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/styles/HomeContactForm.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" lean-forward="true" selection-end-line="1" selection-end-column="28" />
+            <state relative-caret-position="18">
+              <caret line="1" column="14" lean-forward="true" selection-end-line="1" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -52,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/account/GiveThingsHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            <state relative-caret-position="414">
+              <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -62,10 +44,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/account/FirstStepForm.js">
+        <entry file="file://$PROJECT_DIR$/src/components/account/AccountForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="85" column="40" lean-forward="true" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
+            <state relative-caret-position="360">
+              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -74,10 +56,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/account/FirstStepForm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/styles/FirstStepForm.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="373">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -85,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/styles/GiveThingsHeader.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+            <state relative-caret-position="378">
+              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -95,21 +89,16 @@
         <entry file="file://$PROJECT_DIR$/src/scss/settings/_reset.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/Background-Contact-Form.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/navigations/NavigationUser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="144">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -120,11 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="216">
+              <caret line="13" column="66" lean-forward="true" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -137,7 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/scss/main.scss" />
         <option value="$PROJECT_DIR$/src/scss/settings/_colors.scss" />
         <option value="$PROJECT_DIR$/src/components/home/HomeAboutUs.js" />
         <option value="$PROJECT_DIR$/src/scss/styles/HomeAboutUs.scss" />
@@ -181,13 +166,14 @@
         <option value="$PROJECT_DIR$/src/components/logInOut/Login.js" />
         <option value="$PROJECT_DIR$/src/components/navigations/NavigationUser.js" />
         <option value="$PROJECT_DIR$/src/components/account/AccountGiveThings.js" />
-        <option value="$PROJECT_DIR$/src/components/account/HomeAfterLogin.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/scss/settings/_reset.scss" />
-        <option value="$PROJECT_DIR$/src/scss/styles/GiveThingsHeader.scss" />
+        <option value="$PROJECT_DIR$/src/components/account/HomeAfterLogin.js" />
+        <option value="$PROJECT_DIR$/src/components/account/AccountForm.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/account/GiveThingsHeader.js" />
-        <option value="$PROJECT_DIR$/src/components/account/FirstStepForm.js" />
+        <option value="$PROJECT_DIR$/src/scss/styles/GiveThingsHeader.scss" />
         <option value="$PROJECT_DIR$/src/scss/styles/FirstStepForm.scss" />
+        <option value="$PROJECT_DIR$/src/components/account/FirstStepForm.js" />
       </list>
     </option>
   </component>
@@ -219,12 +205,6 @@
               <item name="oddaj-rzeczy-" type="b2602c69:ProjectViewProjectNode" />
               <item name="oddaj-rzeczy-" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oddaj-rzeczy-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oddaj-rzeczy-" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -233,32 +213,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="account" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oddaj-rzeczy-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oddaj-rzeczy-" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oddaj-rzeczy-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oddaj-rzeczy-" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oddaj-rzeczy-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oddaj-rzeczy-" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oddaj-rzeczy-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oddaj-rzeczy-" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -329,12 +283,13 @@
       <workItem from="1569575242922" duration="5529000" />
       <workItem from="1570003408312" duration="1121000" />
       <workItem from="1570013234436" duration="5216000" />
-      <workItem from="1570091801182" duration="11512000" />
+      <workItem from="1570091801182" duration="12015000" />
+      <workItem from="1570176366939" duration="2993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204353000" />
+    <option name="totallyTimeSpent" value="207849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -358,7 +313,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28961748" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28961748" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -370,7 +325,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30777538" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30777538" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -381,16 +336,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="144">
-            <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/styles/Navigations.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -640,23 +585,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/navigations/NavigationUser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/account/AccountGiveThings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/account/AccountGiveThings.js" />
     <entry file="file://$PROJECT_DIR$/src/components/home/Home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -667,77 +596,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/assets/Form-Hero-Image.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/Background-Form.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/account/HomeAfterLogin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        <state relative-caret-position="432">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/settings/_reset.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/Background-Contact-Form.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/Form-Hero-Image.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/src/components/navigations/NavigationUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/styles/HomeContactForm.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-end-line="1" selection-end-column="28" />
+        <state relative-caret-position="18">
+          <caret line="1" column="14" lean-forward="true" selection-end-line="1" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/account/HomeAfterLogin.js">
+    <entry file="file://$PROJECT_DIR$/src/components/account/AccountForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" lean-forward="true" selection-end-line="1" selection-end-column="47" />
+        <state relative-caret-position="360">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/Background-Form.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/settings/_reset.scss">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/styles/GiveThingsHeader.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        <state relative-caret-position="216">
+          <caret line="13" column="66" lean-forward="true" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/account/GiveThingsHeader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        <state relative-caret-position="414">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/account/FirstStepForm.js">
+    <entry file="file://$PROJECT_DIR$/src/scss/styles/GiveThingsHeader.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="85" column="40" lean-forward="true" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="378">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/styles/FirstStepForm.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="373">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/account/FirstStepForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

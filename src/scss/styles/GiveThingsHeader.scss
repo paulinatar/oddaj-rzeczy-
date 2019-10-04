@@ -1,7 +1,10 @@
 @import "../settings/colors";
 @import "../settings/fonts";
 @import "../settings/reset";
+.redBorder{
 
+  height: 600px;
+}
 
 .clothesImage {
 width: 50%;
@@ -19,6 +22,7 @@ width: 50%;
   height: 600px;
   float: right;
   padding-right: 10px;
+
 
 
   .steps4{

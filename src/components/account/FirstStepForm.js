@@ -6,8 +6,8 @@ import '../../scss/styles/FirstStepForm.scss'
 
 class FirstStepForm extends Component{
     render() {
-        return (<>
-            <div className='yelowDiv'>
+        return (<><div className='green'>
+            <div className='yellowDiv'>
             <h3>WAŻNE !</h3>
             <p>Uzupełnij szczegóły dotyczące Twoich rzeczy. Dzięki temu będziemy wiedzieć komu je przekazać</p>
             </div>
@@ -19,10 +19,15 @@ class FirstStepForm extends Component{
 
                         <h3>Zaznacz co chcesz oddać:</h3>
                         <input type='radio'/><label>ubrania, które nadają sie do ponownego uzycia</label>
+                            <br/>
                         <input  type='radio'/><label>ubrania, do wyrzucenia</label>
+                            <br/>
                         <input type='radio' /><label>zabawki</label>
+                            <br/>
                         <input  type='radio'/><label>ksiązki</label>
+                            <br/>
                         <input  type='radio'/><label>inne</label>
+                            <br/>
                         <button>Dalej</button>
                         </div>
                         <div className='stepTwo stepDiv'>
@@ -103,7 +108,7 @@ class FirstStepForm extends Component{
                 </div>
 
 
-
+</div>
             </>
 
         )
