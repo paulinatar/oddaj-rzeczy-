@@ -2,9 +2,7 @@
 @import "../settings/fonts";
 
 
-.green{
 
-}
 
 .yellowDiv{
   width: 100%;
@@ -50,7 +48,7 @@ width: 100%;
   .stepOne{
     padding: 40px 80px;
     text-align: left;
-    display: none;
+    display: block;
 
     input{
 
@@ -87,9 +85,9 @@ display: block;
 
   }
   .stepThree{
-    display: none;
+    display: block;
   }
   .stepFour{
-    display: none;
+    display: block;
   }
 }
