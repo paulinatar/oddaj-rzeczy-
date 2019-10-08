@@ -34,7 +34,7 @@ valueNameOrg:'',
         this.setState({valueRadioP:e.target.value})
     };
     handleOnChangeOrg =e=>{
-        this.setState({[e.value.name]:e.target.value,valueNameOrg:e.target.value})
+        this.setState({[e.target.name]:e.target.value,valueNameOrg:e.target.value})
     };
 
     handleButtonNext =()=>{
@@ -49,6 +49,7 @@ this.setState({counter:this.state.counter -1})
     handleOnChangeCityOption = e =>{
         this.setState({valueCity:e.target.value})
     };
+
     render() {
 
 let step1=
@@ -65,15 +66,15 @@ let step1=
                         <h5>Krok 1/4</h5>
 
                         <h3>Zaznacz co chcesz oddać:</h3>
-                        <input type='checkbox' onClick={this.handleOnChangeRadio}value={"Ubrania, które nadaja sie do ponownego uzycia"}/><label>ubrania, które nadają sie do ponownego użycia</label>
+                        <input type='radio' name={'radio'} onClick={this.handleOnChangeRadio}value={"Ubrania, które nadaja sie do ponownego uzycia"}/><label>ubrania, które nadają sie do ponownego użycia</label>
                             <br/>
-                        <input  type='checkbox' onClick={this.handleOnChangeRadio} value={"ubrania do wyrzucenia"}/><label>ubrania, do wyrzucenia</label>
+                        <input  type='radio' name={'radio'} onClick={this.handleOnChangeRadio} value={"ubrania do wyrzucenia"}/><label>ubrania, do wyrzucenia</label>
                             <br/>
-                        <input type='radio'onClick={this.handleOnChangeRadio} value={"zabawki"} /><label>zabawki</label>
+                        <input type='radio' name={'radio'} onClick={this.handleOnChangeRadio} value={"zabawki"} /><label>zabawki</label>
                             <br/>
-                        <input  type='radio' onClick={this.handleOnChangeRadio} value={"ksiązki"}/><label>książki</label>
+                        <input  type='radio' name={'radio'} onClick={this.handleOnChangeRadio} value={"ksiązki"}/><label>książki</label>
                             <br/>
-                        <input  type='radio' onClick={this.handleOnChangeRadio} value={"Inne"}/><label>Inne</label>
+                        <input  type='radio' name={'radio'} onClick={this.handleOnChangeRadio} value={"Inne"}/><label>Inne</label>
                             <br/>
                         <button onClick={this.handleButtonNext}>Dalej</button>
                         </div>
@@ -115,14 +116,14 @@ let step1=
            let step3=<section>
                <div className='yellowDiv'>
                    <h3>WAŻNE !</h3>
-                   <p></p>
+                   <p>Jeśli wiesz komu chcesz pomóc, mozesz wpisać nazwe tej organizacji w wyszukiwarce. Możesz też filtrować organizacje po ich lokalizacji lub celu ich pomocy.</p>
                </div>
                    <div className='bearDiv'>
 
                        <form>
                         <div className='stepThree stepDiv'>
 <h5>Krok 3/4</h5>
-                            <label>Lokalizcja:
+                            <h3>Lokalizacja:</h3>
                                 <select onChange={this.handleOnChangeCityOption} value={this.state.valueCity}>
                                     <option value=''>--wybierz--</option>
                                     <option value='Poznan'>Poznań</option>
@@ -131,14 +132,17 @@ let step1=
                                     <option value='Wrocław'>Wrocław</option>
                                     <option value='Katowice'>Katowice</option>
                                 </select>
-                            </label>
-                            <label>Komu chcesz pomóc ?
-                                <input type='radio'  id='dzieciom' value='dzieciom' onClick={this.handleOnChangeRadioP}/><label for="dzieciom">Dzieciom</label>
-                                <input type='radio' id ='samotnym matkom' value='samotnym matkom' onClick={this.handleOnChangeRadioP}/><label for ='samotnym matkom'>samotnym matkom</label>
-                                <input type='radio' id='bezdomnym' value='bezdomnym' onClick={this.handleOnChangeRadioP}/><label for="bezdomnym">bezdomnym</label>
-                                <input type='radio' id='niepełnospawnym' value='niepełnosprawnym' onClick={this.handleOnChangeRadioP}/><label for="niepełnospawnym">niepełnosprawnym</label>
-                                <input type='radio' id='osobom starszym' value='osobom starszym' onClick={this.handleOnChangeRadioP} /><label for="osobom starszym">osobom starszym</label>
-                            </label>
+
+                            <br/>
+                            <h3>Komu chcesz pomóc ? </h3><br/>
+                                <input type='radio' name={'radio'} id='dzieciom' value='dzieciom' onClick={this.handleOnChangeRadioP}/><label for="dzieciom">Dzieciom</label>
+                                <input type='radio' name={'radio'} id ='samotnym matkom' value='samotnym matkom' onClick={this.handleOnChangeRadioP}/><label for ='samotnym matkom'>samotnym matkom</label>
+                                <input type='radio' name={'radio'} id='bezdomnym' value='bezdomnym' onClick={this.handleOnChangeRadioP}/><label for="bezdomnym">bezdomnym</label>
+                                <br/>
+                                <input type='radio'name={'radio'} id='niepełnospawnym' value='niepełnosprawnym' onClick={this.handleOnChangeRadioP}/><label for="niepełnospawnym">niepełnosprawnym</label>
+                                <input type='radio' name={'radio'} id='osobom starszym' value='osobom starszym' onClick={this.handleOnChangeRadioP} /><label for="osobom starszym">osobom starszym</label>
+
+                            <br/>
                             <label>Wpisz nazwę konkretnej organizacji (opcjonalnie)
                                 <input type='text' value={this.state.valueNameOrg} onChange={this.handleOnChangeOrg}/>
                             </label>
@@ -154,7 +158,7 @@ let step1=
                let step4=<section>
                    <div className='yellowDiv'>
                    <h3>WAŻNE !</h3>
-                   <p></p>
+                   <p>Podaj adres oraz termin odbioru rzeczy</p>
                </div>
                    <div className='bearDiv'>
 
@@ -165,7 +169,7 @@ let step1=
                             <h3>Podaj adres i termin odbioru przez kuriera </h3>
                             <h5>Adres odbioru:</h5>
                             <label>Ulica
-                                <input type='text' name= 'streetName' value={this.state.streetName} onChange={this.handleOnChangeOrg}/>
+                                <input type='text' name= {'streetName'} value={this.state.streetName} onChange={this.handleOnChangeOrg}/>
                             </label>
                             <label>Miasto
                                 <input type='text' value={this.state.cityName} name='cityName' onChange={this.handleOnChangeOrg}/>
@@ -193,6 +197,42 @@ let step1=
                     </form>
                    </div>
                </section>
+        let step5 =
+            <section> <div className='bearDiv'>
+
+
+                    <div className='stepFive stepDiv'>
+                <h2>Podsumowanie Twojej darowizny</h2>
+                        <h3>Oddajesz:</h3>
+                        <div className='tshirt'></div>
+                        <p>{this.state.valueOption} worki, {this.state.valueRadio} {this.state.valueRadioP}</p>
+                        <div className='around'></div>
+                        <p> dla lokalizacji: {this.state.valueCity}</p>
+                        <h3>Adres odbioru:</h3>
+                        <p>Ulica {this.state.streetName}</p>
+                        <p>Miasto {this.state.cityName}</p>
+                        <p>Kod pocztowy {this.state.postcode}</p>
+                        <p>Numer telefonu {this.state.mobilePhone}</p>
+                        <h3>Termin odbioru:</h3>
+                        <p>Data {this.state.day}</p>
+                        <p>Godzina {this.state.hour}</p>
+                        <p>Uwagi dla kuriera {this.state.info}</p>
+
+                        <button onClick={this.handleButtonPrev}>WSTECZ</button>
+                        <button onClick={this.handleButtonNext}>DALEJ</button>
+
+                    </div>
+            </div>
+            </section>
+        let step6 =<section>
+            <div className='bearDiv'>
+            <div className='stepSix stepDiv'>
+<h2>Dziękujemy za przesłanie formularza. Na maila prześlemy wszelkie informacje o odbiorze</h2>
+                <div className='decoration'></div>
+
+            </div>
+            </div>
+        </section>
 
 
 
@@ -204,6 +244,10 @@ if (counter === 2 && this.state.valueRadio !== ''){
     return step3
 } else if (counter === 4 && this.state.valueRadioP !== '') {
     return step4
+} else if (counter === 5 && this.state.mobilePhone !== '') {
+    return step5
+} else if (counter === 6) {
+    return step6
 }
 
 
