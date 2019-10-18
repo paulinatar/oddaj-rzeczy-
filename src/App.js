@@ -1,18 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {HashRouter, Switch, Route} from "react-router-dom";
-
 import Home from './components/home/Home'
-
 import Logout from "./components/logInOut/Logout";
-
-
 import * as ROUTES from '../src/constants/routes'
-
 import LoginFirebase from "./components/logInOut/LoginFirebase";
 import Registration from "./components/logInOut/RegisterFirebase";
-import GiveThingsHeader from "./components/account/GiveThingsHeader";
 import HomeAfterLogin from "./components/account/HomeAfterLogin";
 import AccountForm from "./components/account/AccountForm";
 

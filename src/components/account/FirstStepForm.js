@@ -1,5 +1,4 @@
 import React,{Component} from "react";
-import {NavLink, Link} from "react-router-dom";
 import '../../scss/styles/FirstStepForm.scss'
 
 
@@ -135,7 +134,7 @@ let step1=
 
                             <br/>
                             <h3>Komu chcesz pomóc ? </h3><br/>
-                                <input type='radio' name={'radio'} id='dzieciom' value='dzieciom' onClick={this.handleOnChangeRadioP}/><label for="dzieciom">Dzieciom</label>
+                                <input type='radio' name={'radio'} id='dzieciom' value='dzieciom' onClick={this.handleOnChangeRadioP}/><label for="dzieciom">dzieciom</label>
                                 <input type='radio' name={'radio'} id ='samotnym matkom' value='samotnym matkom' onClick={this.handleOnChangeRadioP}/><label for ='samotnym matkom'>samotnym matkom</label>
                                 <input type='radio' name={'radio'} id='bezdomnym' value='bezdomnym' onClick={this.handleOnChangeRadioP}/><label for="bezdomnym">bezdomnym</label>
                                 <br/>

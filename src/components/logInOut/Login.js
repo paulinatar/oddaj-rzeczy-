@@ -1,5 +1,4 @@
 import React,{Component} from "react";
-import {NavLink} from "react-router-dom";
 import '../../scss/styles/Login.scss'
 import Navigations from "../navigations/Navigations";
 import * as ROUTES from '../../constants/routes'
@@ -49,16 +48,16 @@ class Login extends Component {
             this.props.firebase
                 .doSignInWithEmailAndPassword(email, psw)
                 .then(authUser => {
-                    console.log(authUser)
-                    sessionStorage.setItem("email",`${this.state.email}`)
+                    console.log(authUser);
+                    sessionStorage.setItem("email",`${this.state.email}`);
                     this.setState({email: "", password: "",});
                     this.props.history.push(ROUTES.AFTERLOGIN);
 
                 })
                 .catch(error => {
 
-                    console.log(error.code)
-                    if(error.code=="auth/wrong-password"){
+                    console.log(error.code);
+                    if(error.code==="auth/wrong-password"){
                         errPsw2=true;
 
 

@@ -1,5 +1,4 @@
 import React,{Component} from "react";
-import {Link} from "react-router-dom";
 import '../../scss/styles/HomeFoundationsList.scss'
 import PaginationFoudations from "../navigations/PaginationFoundations";
 import PaginationNgos from "../navigations/PaginationNgos";
@@ -26,7 +25,7 @@ class HomeFoundationsList extends Component {
     };
     handleOnButtonLocal =()=>{
         this.setState({border1:"", border2:"", border3:"buttonBorder", foundationList: false, ngosList:false, localList:true})
-    }
+    };
 
 
 render() {

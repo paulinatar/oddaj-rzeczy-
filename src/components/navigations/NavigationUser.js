@@ -28,10 +28,10 @@ class NavigationUser extends Component{
                 </ul>
                 <ul className='menuStyleList'>
                     <li><Link to ='/' activeStyle={selectedStyleList} style={menuStyle} className='menuStyle'>Start</Link></li>
-                    <li><Link  to ='HomeWhatAbout' spy ={true} spy ={true} smooth ={true} duration ={500}> O co chodzi</Link></li>
-                    <li><Link activeClass ='active' className ='aboutUs' to ='HomeAboutUs' spy ={true} spy ={true} smooth ={true} duration ={500}>O nas</Link></li>
-                    <li><Link activeClass ='active' className ='foundationList' to ='HomeFoundationsList' spy ={true} spy ={true} smooth ={true} duration ={500}>Fundacja i organizacje</Link></li>
-                    <li><Link activeClass ='active' className ='contact' to ='HomeContactForm' spy ={true} spy ={true} smooth ={true} duration ={500}>Kontakt</Link></li>
+                    <li><Link  to ='HomeWhatAbout'  spy ={true} smooth ={true} duration ={500}> O co chodzi</Link></li>
+                    <li><Link activeClass ='active' className ='aboutUs' to ='HomeAboutUs' spy ={true} smooth ={true} duration ={500}>O nas</Link></li>
+                    <li><Link activeClass ='active' className ='foundationList' to ='HomeFoundationsList'  spy ={true} smooth ={true} duration ={500}>Fundacja i organizacje</Link></li>
+                    <li><Link activeClass ='active' className ='contact' to ='HomeContactForm'  spy ={true} smooth ={true} duration ={500}>Kontakt</Link></li>
                 </ul>
 
 

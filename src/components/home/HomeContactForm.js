@@ -1,8 +1,7 @@
 import React,{Component} from "react";
-import {NavLink} from "react-router-dom";
 import '../../scss/styles/HomeContactForm.scss'
 import Footer from "./Footer2";
-import Firebase from '../Firebase/Firebase'
+
 
 
 

@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import Navigation from "../navigations/Navigations";
 import {NavLink} from "react-router-dom";
 import * as ROUTES from '../../constants/routes'
-import {ACCOUNT} from "../../constants/routes";
+
 
 
 class RegistrationFirebase extends Component {
@@ -39,7 +39,7 @@ class RegistrationFirebase extends Component {
         e.preventDefault();
 
 
-        if (mailReg.test(email) && psw.length >= 6 && confirm == psw && confirm.length >= 6) {
+        if (mailReg.test(email) && psw.length >= 6 && confirm === psw && confirm.length >= 6) {
             formSend = true;
         } else {
             if (!mailReg.test(email)) {
@@ -48,7 +48,7 @@ class RegistrationFirebase extends Component {
             if (psw.length < 6) {
                 errPsw = true;
             }
-            if (psw != confirm) {
+            if (psw !== confirm) {
                 errConfirmPsw = true;
             }
         }

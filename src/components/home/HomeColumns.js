@@ -1,6 +1,4 @@
 import React,{Component} from "react";
-import {NavLink, Link} from "react-router-dom";
-import Navigations from "../navigations/Navigations";
 import '../../scss/styles/HomeColumns.scss'
 
 
