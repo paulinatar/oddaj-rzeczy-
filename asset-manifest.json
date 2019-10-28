@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/oddaj-rzeczy-/static/css/main.d3729009.chunk.css",
-    "main.js": "/oddaj-rzeczy-/static/js/main.87f38afc.chunk.js",
-    "main.js.map": "/oddaj-rzeczy-/static/js/main.87f38afc.chunk.js.map",
+    "main.css": "/oddaj-rzeczy-/static/css/main.d29d8422.chunk.css",
+    "main.js": "/oddaj-rzeczy-/static/js/main.cb6d3685.chunk.js",
+    "main.js.map": "/oddaj-rzeczy-/static/js/main.cb6d3685.chunk.js.map",
     "runtime~main.js": "/oddaj-rzeczy-/static/js/runtime~main.3c42799d.js",
     "runtime~main.js.map": "/oddaj-rzeczy-/static/js/runtime~main.3c42799d.js.map",
-    "static/js/2.a49be810.chunk.js": "/oddaj-rzeczy-/static/js/2.a49be810.chunk.js",
-    "static/js/2.a49be810.chunk.js.map": "/oddaj-rzeczy-/static/js/2.a49be810.chunk.js.map",
+    "static/js/2.099e7e3b.chunk.js": "/oddaj-rzeczy-/static/js/2.099e7e3b.chunk.js",
+    "static/js/2.099e7e3b.chunk.js.map": "/oddaj-rzeczy-/static/js/2.099e7e3b.chunk.js.map",
     "index.html": "/oddaj-rzeczy-/index.html",
-    "precache-manifest.e2d9b68542140d60db40787337aff411.js": "/oddaj-rzeczy-/precache-manifest.e2d9b68542140d60db40787337aff411.js",
+    "precache-manifest.0f04b5aac0143950207ba93b8b876ddd.js": "/oddaj-rzeczy-/precache-manifest.0f04b5aac0143950207ba93b8b876ddd.js",
     "service-worker.js": "/oddaj-rzeczy-/service-worker.js",
-    "static/css/main.d3729009.chunk.css.map": "/oddaj-rzeczy-/static/css/main.d3729009.chunk.css.map",
+    "static/css/main.d29d8422.chunk.css.map": "/oddaj-rzeczy-/static/css/main.d29d8422.chunk.css.map",
     "static/media/HomeContactForm.scss": "/oddaj-rzeczy-/static/media/Background-Contact-Form.f4db7ddd.jpg",
+    "static/media/FirstStepForm.scss": "/oddaj-rzeczy-/static/media/Background-Form.aab5aa4c.jpg",
     "static/media/HomeWhatAbout.scss": "/oddaj-rzeczy-/static/media/Icon-4.436df0aa.svg",
     "static/media/Footer2.scss": "/oddaj-rzeczy-/static/media/Instagram.703479fd.svg",
+    "static/media/GiveThingsHeader.scss": "/oddaj-rzeczy-/static/media/Form-Hero-Image.3bee335a.jpg",
     "static/media/HomeHeder.scss": "/oddaj-rzeczy-/static/media/Home-Hero-Image.e99903ed.jpg",
-    "static/media/HomeAboutUs.scss": "/oddaj-rzeczy-/static/media/Signature.e54cfcfc.svg",
-    "static/media/logo.svg": "/oddaj-rzeczy-/static/media/logo.5d5d9eef.svg"
+    "static/media/HomeAboutUs.scss": "/oddaj-rzeczy-/static/media/Signature.e54cfcfc.svg"
   }
 }
