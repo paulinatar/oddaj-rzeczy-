@@ -23,7 +23,7 @@ class HomeAfterLogin extends Component{
                     <div className='startHelp'>
                         <h2>Zacznij pomagać !</h2>
                         <h2>Oddaj niechciane rzeczy w zaufane ręce</h2>
-                        <img src={decoration} style={{width: '180px'}}/>
+                        <img alt ='decoration' src={decoration} style={{width: '180px'}}/>
                         <div className='buttons'>
                             <button><NavLink activeStyle={style_button} to={ROUTES.ACCOUNT}>oddaj rzeczy</NavLink></button>
                             <button><NavLink activeStyle={style_button} to ={ROUTES.ACCOUNT}>zorganizuj zbiórkę</NavLink></button>

@@ -1,14 +1,15 @@
 import React,{Component} from "react";
 import GiveThingsHeader from "./GiveThingsHeader";
-import FirstStepForm from "./FirstStepForm";
+import TransferStepByStepForm from "./TransferStepByStepForm";
 import HomeContactForm from "../home/HomeContactForm";
 
 
 class AccountForm extends Component{
     render() {
-        return(<>
+        return(
+            <>
             <GiveThingsHeader/>
-            <FirstStepForm/>
+            <TransferStepByStepForm/>
             <HomeContactForm/>
 
             </>

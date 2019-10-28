@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://paulinatar.github.io/oddaj-rzeczy-",
-
   "dependencies": {
     "firebase": "^6.6.2",
     "gh-pages": "^2.1.1",
