@@ -23,29 +23,29 @@ class StepFour extends Component{
                                 <h3>Podaj adres i termin odbioru przez kuriera </h3>
                                 <h5>Adres odbioru:</h5>
                                 <label>Ulica
-                                    <input type='text' name= {'streetName'} value={this.state.streetName} onChange={this.handleOnChangeOrg}/>
+                                    <input type='text' name= {'streetName'} value={this.props.streetName} onChange={this.props.handleOnChangeOrg}/>
                                 </label>
                                 <label>Miasto
-                                    <input type='text' value={this.state.cityName} name='cityName' onChange={this.handleOnChangeOrg}/>
+                                    <input type='text' value={this.props.cityName} name='cityName' onChange={this.props.handleOnChangeOrg}/>
                                 </label>
                                 <label>Kod pocztowy
-                                    <input type='postcode' name='postcode' value={this.state.postcode} onChange={this.handleOnChangeOrg}/>
+                                    <input type='postcode' name='postcode' value={this.props.postcode} onChange={this.props.handleOnChangeOrg}/>
                                 </label>
                                 <label>Numer telefonu
-                                    <input type='phonenumber' name='mobilePhone' value={this.state.mobilePhone} onChange={this.handleOnChangeOrg}/>
+                                    <input type='phonenumber' name='mobilePhone' value={this.props.mobilePhone} onChange={this.props.handleOnChangeOrg}/>
                                 </label>
                                 <h5>Termin odbioru</h5>
                                 <label>Data
-                                    <input type='date' name='day'value={this.state.day} onChange={this.handleOnChangeOrg}/>
+                                    <input type='date' name='day'value={this.props.day} onChange={this.props.handleOnChangeOrg}/>
                                 </label>
                                 <label>Godzina
-                                    <input type='hour' name='hour'value={this.state.hour} onChange={this.handleOnChangeOrg}/>
+                                    <input type='hour' name='hour'value={this.props.hour} onChange={this.props.handleOnChangeOrg}/>
                                 </label>
                                 <label>Uwagi dla kuriera
-                                    <input type='text' name='info'value={this.state.info} onChange={this.handleOnChangeOrg}/>
+                                    <input type='text' name='info'value={this.props.info} onChange={this.props.handleOnChangeOrg}/>
                                 </label>
-                                <button onClick={this.handleButtonPrev}>WSTECZ</button>
-                                <button onClick={this.handleButtonNext}>DALEJ</button>
+                                <button onClick={this.props.handleButtonPrev}>WSTECZ</button>
+                                <button onClick={this.props.handleButtonNext}>DALEJ</button>
                             </div>
 
                         </form>

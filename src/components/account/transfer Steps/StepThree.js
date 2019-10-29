@@ -20,7 +20,7 @@ class StepThree extends Component{
                             <div className='stepThree stepDiv'>
                                 <h5>Krok 3/4</h5>
                                 <h3>Lokalizacja:</h3>
-                                <select onChange={this.handleOnChangeCityOption} value={this.state.valueCity}>
+                                <select onChange={this.props.handleOnChangeCityOption} value={this.props.valueCity}>
                                     <option value=''>--wybierz--</option>
                                     <option value='Poznan'>Poznań</option>
                                     <option value='Warszawa'>Warszawa</option>
@@ -32,27 +32,24 @@ class StepThree extends Component{
                                 <br/>
                                 <h3>Komu chcesz pomóc ? </h3><br/>
                                 <input type='radio' name={'radio'} id='dzieciom' value='dzieciom'
-                                       onClick={this.handleOnChangeRadioP}/><label htmlFor="dzieciom">dzieciom</label>
-                                <input type='radio' name={'radio'} id='samotnym matkom' value='samotnym matkom'
-                                       onClick={this.handleOnChangeRadioP}/><label htmlFor='samotnym matkom'>samotnym
+                                       onClick={this.props.handleOnChangeRadioP}/><label htmlFor="dzieciom">dzieciom</label>
+                                <input type='radio' name={'radio'} id='samotnymMatkom' value='samotnymMatkom'
+                                       onClick={this.props.handleOnChangeRadioP}/><label htmlFor='samotnymMatkom'>samotnym
                                 matkom</label>
                                 <input type='radio' name={'radio'} id='bezdomnym' value='bezdomnym'
-                                       onClick={this.handleOnChangeRadioP}/><label htmlFor="bezdomnym">bezdomnym</label>
-                                <br/>
-                                <input type='radio' name={'radio'} id='niepełnospawnym' value='niepełnosprawnym'
-                                       onClick={this.handleOnChangeRadioP}/><label
-                                htmlFor="niepełnospawnym">niepełnosprawnym</label>
-                                <input type='radio' name={'radio'} id='osobom starszym' value='osobom starszym'
-                                       onClick={this.handleOnChangeRadioP}/><label htmlFor="osobom starszym">osobom
-                                starszym</label>
+                                       onClick={this.props.handleOnChangeRadioP}/><label htmlFor="bezdomnym">bezdomnym</label>
 
-                                <br/>
-                                <label>Wpisz nazwę konkretnej organizacji (opcjonalnie)
-                                    <input type='text' value={this.state.valueNameOrg}
-                                           onChange={this.handleOnChangeOrg}/>
-                                </label>
-                                <button onClick={this.handleButtonPrev}>WSTECZ</button>
-                                <button onClick={this.handleButtonNext}>DALEJ</button>
+                                <input type='radio' name={'radio'} id='niepelnospawnym' value='niepelnosprawnym'
+                                       onClick={this.props.handleOnChangeRadioP}/><label
+                                htmlFor="niepelnospawnym">niepełnosprawnym</label>
+                                <input type='radio' name={'radio'} id='osobomStarszym' value='osobomStarszym'
+                                       onClick={this.props.handleOnChangeRadioP}/><label htmlFor="osobomStarszym">osobom
+                                starszym</label>
+                                <h3>Wpisz nazwę konkretnej organizacji (opcjonalnie)</h3>
+                                    <textarea cols='70' type='text' value={this.props.valueNameOrg}
+                                           onChange={this.props.handleOnChangeOrg}/>
+                                <button onClick={this.props.handleButtonPrev}>WSTECZ</button>
+                                <button onClick={this.props.handleButtonNext}>DALEJ</button>
 
 
                             </div>

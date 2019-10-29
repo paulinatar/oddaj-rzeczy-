@@ -22,7 +22,7 @@ width: 100%;
 
   .stepDiv {
     width: 50%;
-    height: 450px;
+    height: 650px;
 
     float: left;
     display: block;
@@ -81,9 +81,7 @@ display: block;
         background: transparent;
         width: 40px;
       }
-
     }
-
   }
   .stepThree{
     display: block;
@@ -96,16 +94,43 @@ display: block;
       text-align: center;
       color: $silver;
       border: 1px solid $darksilver;
-      background-color: #EEEDEE;;
+      background-color: #EEEDEE;
+  }
+    input{
+      display: none;
+    }
+    label{
+      display: inline-block;
+      border: 1px solid $darksilver;
+      text-align: center;
+      padding: 5px;
+      margin: 15px;
+      line-height: 30px;
+      cursor: pointer;
+    }
+    #dzieciom:checked ~ label[for ='dzieciom'],
+    #samotnymMatkom:checked ~label[for ='samotnymMatkom'],
+    #bezdomnym:checked ~ label[for ='bezdomnym'],
+    #niepelnosprawnym:checked ~label [for='niepelnosprawnym'],
+    #osobomStarszym:checked ~label [for='osobomStarszym']
+    {
+      background-color: $yellow;
+    }
+    button{
+      margin-top: 20px;
+    }
+    textarea{
+      background: none;
+    }
 
 
   }
   .stepFour{
-    display: block;
+    display: inline-block;
     padding: 40px 80px;
     text-align: left;
   }
   .stepFive{
     display: inline-block;
     text-align: center;
-  }}}
+  }}

@@ -14,21 +14,21 @@ class StepFive extends Component{
                 <h2>Podsumowanie Twojej darowizny</h2>
                 <h3>Oddajesz:</h3>
                 <div className='tshirt'></div>
-                <p>{this.state.valueOption} worki, {this.state.valueRadio} {this.state.valueRadioP}</p>
+                <p>{this.props.valueOption} worki, {this.props.valueRadio} {this.props.valueRadioP}</p>
                 <div className='around'></div>
-                <p> dla lokalizacji: {this.state.valueCity}</p>
+                <p> dla lokalizacji: {this.props.valueCity}</p>
                 <h3>Adres odbioru:</h3>
-                <p>Ulica {this.state.streetName}</p>
-                <p>Miasto {this.state.cityName}</p>
-                <p>Kod pocztowy {this.state.postcode}</p>
-                <p>Numer telefonu {this.state.mobilePhone}</p>
+                <p>Ulica {this.props.streetName}</p>
+                <p>Miasto {this.props.cityName}</p>
+                <p>Kod pocztowy {this.props.postcode}</p>
+                <p>Numer telefonu {this.props.mobilePhone}</p>
                 <h3>Termin odbioru:</h3>
-                <p>Data {this.state.day}</p>
-                <p>Godzina {this.state.hour}</p>
-                <p>Uwagi dla kuriera {this.state.info}</p>
+                <p>Data {this.props.day}</p>
+                <p>Godzina {this.props.hour}</p>
+                <p>Uwagi dla kuriera {this.props.info}</p>
 
-                <button onClick={this.handleButtonPrev}>WSTECZ</button>
-                <button onClick={this.handleButtonNext}>DALEJ</button>
+                <button onClick={this.props.handleButtonPrev}>WSTECZ</button>
+                <button onClick={this.props.handleButtonNext}>DALEJ</button>
 
             </div>
         </div>

@@ -19,7 +19,7 @@ class StepTwo extends Component{
                                 <h5>Krok 2/4</h5>
                                 <h3>Podaj liczbę 60 l worków w które spakowałaś/eś rzeczy</h3>
                                 <label>Liczba 60 l worków:</label>
-                                <select value={this.state.valueOption} onChange={this.handleOnChangeOption}>
+                                <select value={this.props.valueOption} onChange={this.props.handleOnChangeOption}>
                                     <option value=''>--wybierz--</option>
                                     <option value='1'>1</option>
                                     <option value='2'>2</option>
@@ -28,8 +28,8 @@ class StepTwo extends Component{
                                     <option value='5'>5</option>
                                 </select>
                                 <br/>
-                                <button onClick={this.handleButtonPrev}>WSTECZ</button>
-                                <button onClick={this.handleButtonNext}>DALEJ</button>
+                                <button onClick={this.props.handleButtonPrev}>WSTECZ</button>
+                                <button onClick={this.props.handleButtonNext}>DALEJ</button>
 
 
                             </div>
