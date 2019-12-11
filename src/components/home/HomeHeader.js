@@ -4,8 +4,6 @@ import Navigations from "../navigations/Navigations";
 import '../../scss/styles/HomeHeder.scss'
 import decoration from '../../assets/Decoration.svg'
 
-
-
 class HomeHeader extends Component{
     render() {
         const style_button= {
@@ -23,17 +21,8 @@ class HomeHeader extends Component{
                     <div className='buttons'>
                         <button><NavLink activeStyle={style_button} to='/login'>oddaj rzeczy</NavLink></button>
                         <button><NavLink activeStyle={style_button} to ='/login'>zorganizuj zbiórkę</NavLink></button>
-
                     </div>
-
-
-
                 </div>
-
-
-
-
-
             </div>
 
 

@@ -13,16 +13,13 @@ import HomeColumns from "./HomeColumns";
 class Home extends Component{
     render() {
         return <>
-<HomeHeader/>
-<HomeColumns/>
-<HomeWhatAbout/>
-<HomeAboutUs/>
-<HomeFoundationsList/>
-<HomeContactForm/>
-
-
-
-        </>
+    <HomeHeader/>
+    <HomeColumns/>
+    <HomeWhatAbout/>
+    <HomeAboutUs/>
+    <HomeFoundationsList/>
+    <HomeContactForm/>
+</>
     }
 }
 

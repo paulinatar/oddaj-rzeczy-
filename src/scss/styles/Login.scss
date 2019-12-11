@@ -40,16 +40,12 @@
 
 
     .registerFormlog {
-      width: 200px;
+      width: 250px;
       height: 180px;
-
       background-color: $white;
       padding: 40px 40px;
       margin: 0 auto;
-
       input{
-
-
         display: block;
         margin: 0 auto;
         outline: none;
@@ -59,13 +55,8 @@
         border-top: none;
         border-left: none;
         height: 25px;
-
-
-
-
       }
       label{
-
         display: block;
         font-family: $font-base;
         font-size: 12px;
@@ -75,9 +66,5 @@
         color: $darksilver;
         font-weight: bold;
       }
-
-
-
     }
-
   }}

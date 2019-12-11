@@ -8,9 +8,7 @@ class StepFive extends Component{
     render() {
         return(<>
             <section> <div className='bearDiv'>
-
-
-            <div className='stepFive stepDiv'>
+              <div className='stepFive stepDiv'>
                 <h2>Podsumowanie Twojej darowizny</h2>
                 <h3>Oddajesz:</h3>
                 <div className='tshirt'></div>
@@ -30,7 +28,7 @@ class StepFive extends Component{
                 <button onClick={this.props.handleButtonPrev}>WSTECZ</button>
                 <button onClick={this.props.handleButtonNext}>DALEJ</button>
 
-            </div>
+              </div>
         </div>
         </section>
         </>)
