@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "087cce34f4886bacdd2c5be79a352502",
+    "revision": "a69c2cb7cc5ba49ebef87a4cf9c7c0d4",
     "url": "/oddaj-rzeczy-/index.html"
   },
   {
-    "revision": "ae4495d4b0d06c8dcd49",
-    "url": "/oddaj-rzeczy-/static/css/main.202999b8.chunk.css"
+    "revision": "bfe293c82e64e1227d68",
+    "url": "/oddaj-rzeczy-/static/css/main.8d4e57d3.chunk.css"
   },
   {
-    "revision": "c136512a0dc9da57afd7",
-    "url": "/oddaj-rzeczy-/static/js/2.695e46ce.chunk.js"
+    "revision": "58280f27dbe9645881ae",
+    "url": "/oddaj-rzeczy-/static/js/2.1effc9a2.chunk.js"
   },
   {
     "revision": "968e358c65fd74b35d44133b91e7304b",
-    "url": "/oddaj-rzeczy-/static/js/2.695e46ce.chunk.js.LICENSE"
+    "url": "/oddaj-rzeczy-/static/js/2.1effc9a2.chunk.js.LICENSE"
   },
   {
-    "revision": "ae4495d4b0d06c8dcd49",
-    "url": "/oddaj-rzeczy-/static/js/main.22e720b1.chunk.js"
+    "revision": "bfe293c82e64e1227d68",
+    "url": "/oddaj-rzeczy-/static/js/main.8713b1f4.chunk.js"
   },
   {
     "revision": "7fbbcf88bf94f6360d32",
