@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/oddaj-rzeczy-/static/css/main.d29d8422.chunk.css",
-    "main.js": "/oddaj-rzeczy-/static/js/main.cb6d3685.chunk.js",
-    "main.js.map": "/oddaj-rzeczy-/static/js/main.cb6d3685.chunk.js.map",
-    "runtime~main.js": "/oddaj-rzeczy-/static/js/runtime~main.3c42799d.js",
-    "runtime~main.js.map": "/oddaj-rzeczy-/static/js/runtime~main.3c42799d.js.map",
-    "static/js/2.099e7e3b.chunk.js": "/oddaj-rzeczy-/static/js/2.099e7e3b.chunk.js",
-    "static/js/2.099e7e3b.chunk.js.map": "/oddaj-rzeczy-/static/js/2.099e7e3b.chunk.js.map",
+    "main.css": "/oddaj-rzeczy-/static/css/main.202999b8.chunk.css",
+    "main.js": "/oddaj-rzeczy-/static/js/main.22e720b1.chunk.js",
+    "main.js.map": "/oddaj-rzeczy-/static/js/main.22e720b1.chunk.js.map",
+    "runtime-main.js": "/oddaj-rzeczy-/static/js/runtime-main.7cbc75eb.js",
+    "runtime-main.js.map": "/oddaj-rzeczy-/static/js/runtime-main.7cbc75eb.js.map",
+    "static/js/2.695e46ce.chunk.js": "/oddaj-rzeczy-/static/js/2.695e46ce.chunk.js",
+    "static/js/2.695e46ce.chunk.js.map": "/oddaj-rzeczy-/static/js/2.695e46ce.chunk.js.map",
     "index.html": "/oddaj-rzeczy-/index.html",
-    "precache-manifest.0f04b5aac0143950207ba93b8b876ddd.js": "/oddaj-rzeczy-/precache-manifest.0f04b5aac0143950207ba93b8b876ddd.js",
+    "precache-manifest.5756119606596870b474a0d88bbefc35.js": "/oddaj-rzeczy-/precache-manifest.5756119606596870b474a0d88bbefc35.js",
     "service-worker.js": "/oddaj-rzeczy-/service-worker.js",
-    "static/css/main.d29d8422.chunk.css.map": "/oddaj-rzeczy-/static/css/main.d29d8422.chunk.css.map",
+    "static/css/main.202999b8.chunk.css.map": "/oddaj-rzeczy-/static/css/main.202999b8.chunk.css.map",
+    "static/js/2.695e46ce.chunk.js.LICENSE": "/oddaj-rzeczy-/static/js/2.695e46ce.chunk.js.LICENSE",
     "static/media/HomeContactForm.scss": "/oddaj-rzeczy-/static/media/Background-Contact-Form.f4db7ddd.jpg",
     "static/media/FirstStepForm.scss": "/oddaj-rzeczy-/static/media/Background-Form.aab5aa4c.jpg",
     "static/media/HomeWhatAbout.scss": "/oddaj-rzeczy-/static/media/Icon-4.436df0aa.svg",
@@ -18,5 +19,11 @@
     "static/media/GiveThingsHeader.scss": "/oddaj-rzeczy-/static/media/Form-Hero-Image.3bee335a.jpg",
     "static/media/HomeHeder.scss": "/oddaj-rzeczy-/static/media/Home-Hero-Image.e99903ed.jpg",
     "static/media/HomeAboutUs.scss": "/oddaj-rzeczy-/static/media/Signature.e54cfcfc.svg"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7cbc75eb.js",
+    "static/js/2.695e46ce.chunk.js",
+    "static/css/main.202999b8.chunk.css",
+    "static/js/main.22e720b1.chunk.js"
+  ]
 }
