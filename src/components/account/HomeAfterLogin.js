@@ -27,7 +27,6 @@ class HomeAfterLogin extends Component{
                         <div className='buttons'>
                             <button><NavLink activeStyle={style_button} to={ROUTES.ACCOUNT}>oddaj rzeczy</NavLink></button>
                             <button><NavLink activeStyle={style_button} to ={ROUTES.ACCOUNT}>zorganizuj zbiórkę</NavLink></button>
-
                         </div>
 
                     </div>

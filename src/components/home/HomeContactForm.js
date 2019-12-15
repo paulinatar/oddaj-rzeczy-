@@ -2,10 +2,6 @@ import React,{Component} from "react";
 import '../../scss/styles/HomeContactForm.scss'
 import Footer from "./Footer2";
 
-
-
-
-
 class HomeContactForm extends Component{
     state={
         name:'',
@@ -16,7 +12,6 @@ class HomeContactForm extends Component{
         errEmail: false,
         errMessage:false
     };
-
     handleSubmit =e=>{
         this.setState({formSend:false});
         this.setState({errName:false});
@@ -45,7 +40,6 @@ class HomeContactForm extends Component{
         }
 
         const urlCL= "https://fer-api.coderslab.pl/v1/portfolio/contact";
-
         fetch(urlCL, {
             method: 'POST',
             headers:{
@@ -69,7 +63,6 @@ class HomeContactForm extends Component{
         })
 
     };
-
     render() {
         return(
             <>
@@ -80,55 +73,36 @@ class HomeContactForm extends Component{
                     <div className='decorations'></div>
                     <div className='formDiv'>
                         {this.state.formSend &&<span style={{color:'green'} }>Wiadomośc została wysłana !<br/>Wkrótce sie skontaktujemy</span>}
-                    <form  onSubmit={this.handleSubmit} className='contactForm'>
-
-                        <div className='inputName'>
-                        <label>Wpisz swoje imię</label>
+                      <form  onSubmit={this.handleSubmit} className='contactForm'>
+                         <div className='inputName'>
+                         <label>Wpisz swoje imię</label>
                             <br/>
-                        <input type='text' name='name'value={this.state.name}  onChange={this.handleChange} className='inputName' placeholder='Krzysztof'/>
+                         <input type='text' name='name'value={this.state.name}  onChange={this.handleChange} className='inputName' placeholder='Krzysztof'/>
                          <br/>   {this.state.errName && <span style ={{color:'red'}}>Podane imie jest nieprawidłowe !</span>}
-                </div>
-                        <div className='inputEmail'>
-                        <label>Wpisz swój email</label>
+                         </div>
+                         <div className='inputEmail'>
+                         <label>Wpisz swój email</label>
                             <br/>
-                        <input type='email' name='email' value={this.state.email} onChange={this.handleChange} className='inputName' placeholder='abc@xyz.pl'/>
+                            <input type='email' name='email' value={this.state.email} onChange={this.handleChange} className='inputName' placeholder='abc@xyz.pl'/>
                            <br/>
                             {this.state.errEmail &&<span  style={{color:'red'} }>Podany email jest nieprawidłowy !</span>}
-                        </div>
-                        <br/>
-                        <div className='newMessage'>
-
-                        <label>Wpisz swoją wiadomośc</label>
+                          </div>
+                          <br/>
+                          <div className='newMessage'>
+                          <label>Wpisz swoją wiadomośc</label>
                             <br/>
-                        <textarea cols ='55' rows='4' name='message' value={this.state.message} onChange={this.handleChange}  placeholder='Lorem ipsum dolor sit amet, consectetur t dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat'/>
-                          <br/>  {this.state.errMessage &&<span style={{color:'red'} }>Pole wiadomość musi mieć minimum 120 znaków</span>}
-
-                        </div>
-<br/>
+                          <textarea cols ='55' rows='4' name='message' value={this.state.message} onChange={this.handleChange}  placeholder='Lorem ipsum dolor sit amet, consectetur t dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat'/>
+                          <br/>
+                          {this.state.errMessage &&<span style={{color:'red'} }>Pole wiadomość musi mieć minimum 120 znaków</span>}
+                          </div>
+                        <br/>
                         <button  value='send' type='submit'>Wyślij</button>
-
-
-
-
                     </form>
                     </div>
-
                 </div>
-
-
-
                 <Footer/>
-        </section>
+             </section>
 
-                </>)
-
-
-
-
-
-
-
-
+            </>)
 }}
-
 export default HomeContactForm

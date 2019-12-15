@@ -3,18 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="5e7dc87e-8746-4d21-849e-6f27a14c3fd3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Firebase/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Firebase/context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/account/AccountForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/account/AccountForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/account/HomeAfterLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/account/HomeAfterLogin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/account/TransferStepByStepForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/account/TransferStepByStepForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/account/transfer Steps/StepFive.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/account/transfer Steps/StepFive.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/account/transfer Steps/StepFour.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/account/transfer Steps/StepFour.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Footer2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Footer2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/HomeHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HomeHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/styles/FirstStepForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles/FirstStepForm.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/styles/HomeContactForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles/HomeContactForm.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/styles/Login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles/Login.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/account/transfer Steps/StepSix.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/account/transfer Steps/StepSix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/account/transfer Steps/StepTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/account/transfer Steps/StepTwo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/HomeContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HomeContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logInOut/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logInOut/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigations/NavigationUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigations/NavigationUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigations/Navigations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigations/Navigations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigations/PaginationFoundations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigations/PaginationFoundations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigations/PaginationLocal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigations/PaginationLocal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigations/PaginationNgos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigations/PaginationNgos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/roles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/settings/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/settings/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/settings/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/settings/_fonts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/styles/Register.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles/Register.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +116,9 @@
       <workItem from="1573998590977" duration="41000" />
       <workItem from="1574856549640" duration="907000" />
       <workItem from="1574874321244" duration="26000" />
-      <workItem from="1576060509195" duration="10097000" />
+      <workItem from="1576060509195" duration="11288000" />
+      <workItem from="1576237768101" duration="47000" />
+      <workItem from="1576414524145" duration="5391000" />
     </task>
     <servers />
   </component>
@@ -124,5 +130,9 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="588" y="214" width="800" height="729" key="#Intentions/67.27.1853.1053@67.27.1853.1053" timestamp="1576068865852" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1576237813547">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1576237813547" />
   </component>
 </project>

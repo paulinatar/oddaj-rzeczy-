@@ -13,13 +13,11 @@ class StepSix extends Component{
                         <div className='stepSix stepDiv'>
                             <h2>Dziękujemy za przesłanie formularza. Na maila prześlemy wszelkie informacje o odbiorze</h2>
                             <div className='decoration'></div>
-
                         </div>
                     </div>
                 </section>
 
-            </>
-        )
+            </>)
         }
         }
         export default StepSix

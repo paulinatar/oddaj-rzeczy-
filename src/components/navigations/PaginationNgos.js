@@ -40,41 +40,30 @@ class PaginationNgos extends Component{
                 }],
             currentPage:1,
             perPage:3,
-
         }
-
     }
-
 
     handleClick =(event,i)=>{
         this.setState({
             currentPage: i
         })
-    }
+    };
     render() {
         const {ngoList, currentPage, perPage} = this.state;
-
         const indexOfLast = currentPage*perPage;
         const indexOfFirst =indexOfLast - perPage;
         const currentFounds = ngoList.slice(indexOfFirst, indexOfLast);
-
-
         const  secondList =currentFounds.map((ngo, i)=>{
             return <li key ={i}><h3> Organizacja: {ngo.title}</h3><h6>{ngo.subjects}</h6><h5>{ngo.mission}</h5></li>
-
-
         });
-
         const pageNumbers =[];
         for (let i=1; i<=Math.ceil(ngoList.length/perPage);i++)
         {
             const element = <li className='paginationButton' key={i} onClick={e => this.handleClick(e, i)}>{i}</li>;
             pageNumbers.push(element)
         }
-
-
-
-        return (<section>
+        return (
+            <section>
             <p className='infoAbout'>About ngos Egestas sed sed risus pretium quam vulputate. Dui nunc mattis enim ut tellus elementum sagittis vitae. Mattis rhoncus urna neque viverra justo nec. Sed lectus vestibulum mattis ullamcorper.</p>
             <ul className='organizationList'>
                 {secondList}
@@ -83,9 +72,8 @@ class PaginationNgos extends Component{
                 {pageNumbers}
             </ul>
 
-        </section>)
+          </section>)
     }
 }
-
 
 export default PaginationNgos

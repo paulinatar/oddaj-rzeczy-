@@ -30,8 +30,6 @@ class StepTwo extends Component{
                                 <br/>
                                 <button onClick={this.props.handleButtonPrev}>WSTECZ</button>
                                 <button onClick={this.props.handleButtonNext}>DALEJ</button>
-
-
                             </div>
                         </form>
                     </div>

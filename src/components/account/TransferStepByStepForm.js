@@ -7,8 +7,6 @@ import StepFour from "./transfer Steps/StepFour";
 import StepFive from "./transfer Steps/StepFive";
 import StepSix from "./transfer Steps/StepSix";
 
-
-
 class TransferStepByStepForm extends Component{
     state={
         valueRadio: '',
@@ -32,13 +30,10 @@ class TransferStepByStepForm extends Component{
         errTime: false,
         errInfo: false,
         formSendThings:false,
-
         step1:true,
         step2:false,
         step3:false,
         step4:false
-
-
     };
 
     handleOnChangeRadio =(e)=>{
@@ -92,7 +87,6 @@ if (streetName.length> 2 && cityName.length>2&& postcodeReg.test(postcode)&& pho
     }
 }
     };
-
     render() {
 
            let step1=  <StepOne handleOnChangeRadio = {this.handleOnChangeRadio} handleButtonNext = {this.handleButtonNext}/>;
@@ -116,9 +110,6 @@ if (streetName.length> 2 && cityName.length>2&& postcodeReg.test(postcode)&& pho
 
 
         let step6 =<StepSix/>;
-
-
-
         let counter =this.state.counter;
 
 if (counter === 2 && this.state.valueRadio !== ''){
@@ -135,7 +126,4 @@ if (counter === 2 && this.state.valueRadio !== ''){
         return step1
     }
 }
-
-
-
 export default TransferStepByStepForm

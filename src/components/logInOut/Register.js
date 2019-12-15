@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import Navigation from "../navigations/Navigations";
 import {NavLink} from "react-router-dom";
 import * as ROUTES from '../../constants/routes'
+import '../../scss/styles/Register.scss'
 
 
 
@@ -16,10 +17,7 @@ class RegistrationFirebase extends Component {
         errEmail: false,
         errPsw: false,
         errConfirmPsw: false
-
-
     };
-
     handleOnChange = e => {
         this.setState({
             [e.target.name]: e.target.value
@@ -34,11 +32,7 @@ class RegistrationFirebase extends Component {
         let formSend = false;
         let errPsw = false;
         let errEmail = false;
-
-
         e.preventDefault();
-
-
         if (mailReg.test(email) && psw.length >= 6 && confirm === psw && confirm.length >= 6) {
             formSend = true;
         } else {
@@ -68,21 +62,17 @@ class RegistrationFirebase extends Component {
                     this.setState({error});
                 });
         }
-
-
     };
-
     render() {
         return (
 
                 <div className='container5'>
                     <Navigation/>
-
                     <div className='registerDiv'>
                         <h2>Załóż konto</h2>
                         <div className='decoration'></div>
                         <form onSubmit={this.handleOnSubmit}>
-                            <div className='registerFormlog'>
+                            <div className='registerFormLog'>
                                 <label>Email </label>
                                     <input type="email" name="email" value={this.state.email}
                                            onChange={this.handleOnChange}/>

@@ -5,25 +5,20 @@ import "../../scss/styles/Navigations.scss"
 
 
 class NavigationUser extends Component{
-
-
     render() { const selectedStyleMenu ={
         border: "1px solid #FAD648",
-
-    }
+    };
         const menuStyle ={
             color:"#3C3C3C",
         };
         const selectedStyleList ={
             border: "1px solid #3C3C3C",
-
         };
         return (<>
             <nav className='mainNav'>
                 <ul className='loginMenuStyleList'>
                     <li><p activeStyle={selectedStyleMenu} className='loginStyle' style={menuStyle}>Cześć </p></li>
                     <li><NavLink to={ROUTES.ACCOUNT} activeStyle={selectedStyleMenu} className='loginStyle'style={menuStyle}>Oddaj rzeczy</NavLink></li>
-
                     <li><NavLink to={ROUTES.LOGOUT} activeStyle={selectedStyleMenu} className='loginStyle'style={menuStyle}>Wyloguj sie</NavLink></li>
                 </ul>
                 <ul className='menuStyleList'>
@@ -33,15 +28,8 @@ class NavigationUser extends Component{
                     <li><Link activeClass ='active' className ='foundationList' to ='HomeFoundationsList'  spy ={true} smooth ={true} duration ={500}>Fundacja i organizacje</Link></li>
                     <li><Link activeClass ='active' className ='contact' to ='HomeContactForm'  spy ={true} smooth ={true} duration ={500}>Kontakt</Link></li>
                 </ul>
-
-
-
-
-
-
             </nav>
         </>)
-
     }
 }
 
